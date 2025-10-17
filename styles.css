@@ -1,0 +1,95 @@
+body {
+  background-color: #000;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.post {
+  background-color: #fff;
+  border-radius: 2px;
+  width: 500px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user-info i {
+  font-size: 28px;
+  color: #000;
+}
+
+.user-text h2 {
+  font-size: 14px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.user-text p {
+  font-size: .7rem;
+  margin: 0;
+  color: #555;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  display: block;
+}
+
+footer {
+  padding: 1rem 1rem 2rem;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.left-icons i {
+  font-size: 2rem;
+  margin-right: .5rem;
+  cursor: pointer;
+}
+
+.fa-bookmark {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.post-header .fa-ellipsis-vertical {
+  font-size: 2rem;
+}
+
+.likes {
+  font-size: 1rem;
+  margin: .5rem 0 1rem;
+}
+
+.caption {
+  font-size: .8rem;
+  color: #222;
+  margin: 0;
+  line-height: 1.4;
+}
